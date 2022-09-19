@@ -1,0 +1,6 @@
+service : {
+  add: (float64) -> () oneway;
+  balance: () -> (float64) query;
+  compoundInterest: () -> () oneway;
+  sub: (float64) -> () oneway;
+}
